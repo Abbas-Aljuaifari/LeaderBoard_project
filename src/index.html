@@ -11,7 +11,7 @@
         
         <div class="left-container">
             <div class="score-header">
-                <h2 class="score-heading">Scores</h2>
+                <h2 class="score-heading">Recent Scores</h2>
             <button class="refresh">Refresh</button>
             </div>
             
@@ -22,15 +22,14 @@
         </div>
         <div class="right-container">
             <form>
+                <h2 class="form-heading">Add your score</h2>
                 <div class="form-group">
-                    <label for="player-name">Player Name:</label>
-                    <input type="text" id="player-name" name="player-name" required>
+                    <input type="text" id="player-name" placeholder="Player Name" name="player-name" required>
                 </div>
                 <div class="form-group">
-                    <label for="player-score">Score:</label>
-                    <input type="text" id="player-score" name="player-score" required>
+                    <input type="number" id="player-score" placeholder="enter score" name="player-score" required>
                 </div>
-                <input type="submit" value="Submit">
+                <input class="submit" type="submit" value="Submit">
             </form>
         </div>
     </main>
