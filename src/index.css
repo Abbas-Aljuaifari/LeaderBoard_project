@@ -1,72 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
 body {
-  font-family: cursive, sans-serif;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  text-align: center;
+  color: #333;
+  margin: 20px;
 }
 
 .main-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 10%;
   padding: 10px;
 }
 
 .left-container {
   width: 50%;
-  border: 1px solid #111010;
-  padding: 2%;
-}
-
-.right-container {
-  width: 40%;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .refresh {
   border-radius: 5%;
-  border: none;
-  padding: 0 25px;
   cursor: pointer;
+  font-size: medium;
+  padding: 10px;
+  background: transparent;
+}
+
+.refresh:hover {
+  background-color: #45a049;
 }
 
 .score-header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .score-heading {
   font-size: 20px;
+  color: #333;
 }
 
 .score-list {
   list-style: none;
   padding: 0;
+  overflow: auto;
+  max-height: 25vh;
+  border: 1px solid black;
 }
 
 .score-list li {
   margin-bottom: 5px;
+  padding: 10px;
+}
+
+.score-list li:hover {
+  background-color: #f0ebebcc;
+  cursor: pointer;
+}
+
+.score-list li:nth-child(odd) {
+  background-color: #d4d1d1;
+}
+
+.right-container {
+  width: 40%;
+  padding: 20px;
 }
 
 .form-group {
   margin-bottom: 10px;
 }
 
-.form-group label {
-  display: block;
-  font-weight: bold;
-}
-
-.form-group input[type="text"] {
+.form-group input[type="text"],
+.form-group input[type="number"] {
   width: 100%;
   padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.form-group input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  border: none;
+.submit {
   padding: 10px 20px;
   cursor: pointer;
+  margin-left: auto;
+  display: block;
+  background-color: #fffefe;
 }
