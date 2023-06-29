@@ -1,6 +1,5 @@
 body {
   font-family: cursive, sans-serif;
-
 }
 
 h1 {
@@ -25,16 +24,17 @@ h1 {
   padding-left: 20px;
 }
 
-.refresh{
-border-radius: 5%;
-border: none;
-padding: 0 25px;
-cursor: pointer;
+.refresh {
+  border-radius: 5%;
+  border: none;
+  padding: 0 25px;
+  cursor: pointer;
 }
 
 .score-header {
   display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+}
 
 .score-heading {
   font-size: 20px;
