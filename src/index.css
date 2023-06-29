@@ -32,7 +32,7 @@ h1 {
   border-radius: 5%;
   border: none;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   font-size: medium;
   padding: 10px;
@@ -57,7 +57,7 @@ h1 {
   list-style: none;
   padding: 0;
   overflow: auto;
-max-height: 21vh;
+  max-height: 21vh;
 }
 
 .score-list li {
@@ -99,7 +99,7 @@ max-height: 21vh;
 }
 
 .form-group input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px 20px;
