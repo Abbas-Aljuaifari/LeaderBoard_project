@@ -1,22 +1,72 @@
-:root {
-  --primary: #ddd;
-  --secondary: #e5d4d4;
+body {
+  font-family: cursive, sans-serif;
+
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary);
+h1 {
+  text-align: center;
 }
 
-body {
+.main-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  justify-content: space-between;
+  margin-top: 10%;
+  padding: 10px;
 }
 
-* {
-  box-sizing: border-box;
+.left-container {
+  width: 50%;
+  border: 1px solid #111010;
+  padding: 2%;
+}
+
+.right-container {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.refresh{
+border-radius: 5%;
+border: none;
+padding: 0 25px;
+cursor: pointer;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-around;}
+
+.score-heading {
+  font-size: 20px;
+}
+
+.score-list {
+  list-style: none;
+  padding: 0;
+}
+
+.score-list li {
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
