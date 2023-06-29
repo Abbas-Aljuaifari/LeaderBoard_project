@@ -52,9 +52,7 @@
 - **[HTML Form]**
 - **[Semantic tags]**
 - **[CSS Flexbox]**
-- **[CSS Grid]**
-- **[Responiveness]**
-- **[ Javascript ]**
+- **[WEBPACK]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +75,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Abbas-Aljuaifari/To-Do-List.git
+git clone https://github.com/Abbas-Aljuaifari/LeaderBoard_project.git
 
 ### Install
 
